@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ejercicios {
+    font-size: 1.5em;
+    margin-left: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff4500;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    margin: 0;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  

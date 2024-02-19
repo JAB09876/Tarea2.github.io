@@ -1,0 +1,90 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejercicios {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h2,
+h3 {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-containernw {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: DodgerBlue;
+  }
+
+  .flex-container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+
+  .flex-container-wrap > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-containernw > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-containernw {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-containernw>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  

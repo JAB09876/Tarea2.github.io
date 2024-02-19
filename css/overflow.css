@@ -1,0 +1,81 @@
+.container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+
+  /* Desbordamiento Visible */
+  .visible {
+    overflow: visible;
+    background-color: white;
+  }
+
+  /* Desbordamiento Oculto */
+  .hidden {
+    overflow: hidden;
+    background-color: white;
+  }
+
+  /* Desbordamiento Desplazable */
+  .scroll {
+    overflow: scroll;
+    background-color: white;
+  }
+
+  /* Desbordamiento Automático */
+  .auto {
+    overflow: auto;
+    background-color: white;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejercicios {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h2,
+h3 {
+	display: flex;
+	justify-content: center;
+}
+
+#general{
+    background-color: #777777;
+    height: auto;
+    margin-top: 5px;
+}

@@ -1,0 +1,119 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejercicios {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h2,
+h3 {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container-fs {
+    display: flex;
+    justify-content: flex-start;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container-fs > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container-fe {
+    display: flex;
+    justify-content: flex-end;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container-fe > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container-sa {
+    display: flex;
+    justify-content: space-around;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container-sa > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container-sb {
+    display: flex;
+    justify-content: space-between;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container-sb > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

@@ -1,0 +1,90 @@
+.float-left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-right: 10px;
+  }
+
+  .float-right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-left: 10px;
+  }
+
+  .clear-none {
+    clear: none;
+  }
+
+  .clear-left {
+    clear: left;
+  }
+
+  .clear-right {
+    clear: right;
+  }
+
+  .clear-both {
+    clear: both;
+  }
+
+  .clear-initial {
+    clear: initial;
+  }
+
+  .clear-inherit {
+    clear: inherit;
+  }
+
+  .clear-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejercicios {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h2,
+h3 {
+	display: flex;
+	justify-content: center;
+}

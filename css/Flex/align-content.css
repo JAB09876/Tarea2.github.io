@@ -1,0 +1,164 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejercicios {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h2,
+h3 {
+	display: flex;
+	justify-content: center;
+}
+
+/*Sapce Between*/
+
+.flex-container-sb {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow: scroll;
+    background-color: #595959;
+  }
+  
+  .flex-container-sb > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+/*Sapce-Around*/
+
+.flex-container-sa {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    overflow: scroll;  
+    background-color: #595959;
+  }
+  
+  .flex-container-sa > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+/*Stretch*/
+
+.flex-container-s {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    overflow: scroll;  
+    background-color: #595959;
+  }
+  
+  .flex-container-s > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+/*Center*/
+
+.flex-container-c {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: scroll;  
+    background-color: #595959;
+  }
+  
+  .flex-container-c > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+/*Flex-Start*/
+
+.flex-container-fs {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: scroll;  
+    background-color: #595959;
+  }
+  
+  .flex-container-fs > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+/*Flex-End*/
+
+.flex-container-fe {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    overflow: scroll;  
+    background-color: #595959;
+  }
+  
+  .flex-container-fe > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

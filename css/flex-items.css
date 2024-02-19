@@ -1,0 +1,221 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejercicios {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h2,
+h3 {
+	display: flex;
+	justify-content: center;
+}
+
+/*Order*/
+
+.flex-container-o {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+
+  .flex-container-o>div {
+    background-color: #595959;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+#item1-o {
+    order: 4; /* Coloca este elemento en segundo lugar */
+  }
+
+#item3-o {
+    order: 2; /* Coloca este elemento en segundo lugar */
+  }
+
+#item4-o {
+    order: 3; /* Coloca este elemento en segundo lugar */
+  }
+
+#item2-o {
+    order: 1; /* Coloca este elemento en segundo lugar */
+  }
+
+  /*Flex-grow*/
+
+  .flex-container-fg {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+
+  .flex-container-fg>div {
+    background-color: #595959;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+#item1-fg {
+    flex-grow: 1; /* El elemento crecerá para llenar el espacio disponible */
+}
+#item2-fg {
+  flex-grow: 2; /* El elemento crecerá para llenar el espacio disponible */
+}
+
+#item3-fg {
+  flex-grow: 8; /* El elemento crecerá para llenar el espacio disponible */
+}
+
+/*Flex-Shrink*/
+
+.flex-container-fs {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-fs>div {
+  background-color: #595959;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#item-grueso {
+  flex-shrink: 0;
+}
+
+/*Flex-Basis*/
+
+.flex-container-fb {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-fb>div {
+  background-color: #595959;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#ejemplo-fb {
+  flex-basis: 200px;
+}
+
+/*Flex*/
+
+.flex-container-f {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-f>div {
+  background-color: #595959;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#ejemplo-f {
+  flex: 0 0 200px;/* Equivalente a flex-grow: 0; flex-shrink: 0; flex-basis: 200px; */
+}
+
+/*Align-Self-Cneter*/
+
+.flex-container-asc {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container-asc>div {
+  background-color: #595959;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#ejemplo-asc {
+  align-self: center;
+}
+
+/*Start y End*/
+
+.flex-container-fs-fe {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container-fs-fe > div {
+  background-color: #595959;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#ejemplo-s {
+  align-self: flex-start;
+}
+
+#ejemplo-e {
+  align-self: flex-end
+}
